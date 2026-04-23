@@ -50,13 +50,17 @@ numpy: Numerical operation & abnormal value processing
 matplotlib & seaborn: Statistical chart drawing
 wrds==3.4.0: WRDS database interface
 psycopg2-binary: PostgreSQL database driver
-6. Operation Steps
-Finish .pgpass password file configuration to realize WRDS auto-login
-Run code cells in notebook.ipynb in order
-Automatically complete data query, cleaning and indicator calculation
-Export visualization pictures and structured result tables
-Support offline analysis by reading local CSV files directly
-7. Notes
-Valid WRDS academic account and stable overseas network are required
-Matplotlib has been configured to support normal Chinese display
-You can freely adjust SQL screening conditions, risk grouping standards and indicator weight rules
+
+## 6. Operation Steps
+1. Finish `.pgpass` password file configuration to realise WRDS auto-login
+2. Run code cells in `notebook.ipynb` in order
+3. Automatically complete data query, cleaning and indicator calculation
+4. Export visualization pictures and structured result tables
+5. Support offline analysis by reading local CSV files directly
+
+## 7. Notes
+- Valid WRDS academic account and stable overseas network are required for original data acquisition
+- Matplotlib has been configured to support normal Chinese display
+- You can freely adjust SQL screening conditions, risk grouping standards and indicator weight rules
+- All file paths adopt relative paths, which are compatible with Windows and Mac systems
+- Python 3.10-3.11 version is recommended to avoid wrds library compatibility errors
