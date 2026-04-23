@@ -42,14 +42,20 @@ Use Python `wrds` library to establish secure connection with WRDS cloud Postgre
 - Complete hierarchical audit risk classification and comprehensive risk ranking of samples
 
 ## 5. Environment & Dependencies
+
 Install all packages with command:
+
 ```bash
 pip install -r requirements.txt
-pandas: Data frame cleaning & analysis
-numpy: Numerical operation & abnormal value processing
-matplotlib & seaborn: Statistical chart drawing
-wrds==3.4.0: WRDS database interface
-psycopg2-binary: PostgreSQL database driver
+Package	Purpose	
+pandas	Data frame cleaning & analysis	
+numpy	Numerical operation & abnormal value processing	
+matplotlib & seaborn	Statistical chart drawing	
+wrds==3.4.0	WRDS database interface	
+psycopg2-binary	PostgreSQL database driver	
+
+```markdown
+
 
 ## 6. Operation Steps
 1. Finish `.pgpass` password file configuration to realise WRDS auto-login
