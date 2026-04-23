@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+seaborn
+wrds==3.4.0
+psycopg2-binary
